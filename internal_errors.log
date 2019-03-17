@@ -1,0 +1,16 @@
+[Tue Dec 25 16:01:36 2018]Got AttributeError when attempting to get a value for field `name` on serializer `CategorySerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+[Tue Dec 25 16:06:14 2018]Got AttributeError when attempting to get a value for field `title` on serializer `BlogSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'title'.
+[Tue Dec 25 17:01:24 2018]'Asia/shanghai'
+[Tue Dec 25 17:30:26 2018]First argument to get_object_or_404() must be a Model, Manager, or QuerySet, not 'str'.
+[Tue Dec 25 17:30:56 2018]No Blog matches the given query.
+[Tue Dec 25 17:31:00 2018]No Blog matches the given query.
+[Tue Dec 25 17:36:34 2018]No Blog matches the given query.
+[Tue Dec 25 17:37:51 2018]'Blog' object is not iterable
+[Tue Dec 25 17:40:00 2018]No Blog matches the given query.
+[Tue Dec 25 17:40:38 2018]No Blog matches the given query.
+[Tue Dec 25 17:54:06 2018]'bid'
+[Thu Dec 27 17:25:15 2018]invalid literal for int() with base 10: ''

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页 | codingkai</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/imgs/favicon2.ico" sizes="any"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="/static/css/markdown_style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css"/>
+</head>
+<body>
+<canvas style="position: fixed"></canvas>
+<div id="front-board">
+    <button type="button" class="btn btn-default btn-lg" id="toggle">
+        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+    </button>
+    <div id="nav-bar">
+        <div id="header">
+            <img src="/static/imgs/favicon2.ico" alt="图片加载失败">
+            <p>codingkai's Blog</p>
+
+        </div>
+        <hr/>
+        <br/>
+        <div id="nav-list">
+            <a id="archive">
+                <span class="glyphicon glyphicon-home icon"></span>
+                <span class="description">Archives</span>
+                <span class="glyphicon glyphicon-chevron-up up-down"></span>
+            </a>
+            <ul id="archive-list"></ul>
+            <a id="category">
+                <span class="glyphicon glyphicon-home icon"></span>
+                <span class="description">Categories</span>
+                <span class="glyphicon glyphicon-chevron-up up-down"></span>
+            </a>
+            <ul id="category-list"></ul>
+            <a id="me">
+                <span class="glyphicon glyphicon-home icon"></span>
+                <span class="description">About me</span>
+                <span class="glyphicon glyphicon-chevron-up up-down"></span>
+            </a>
+
+
+
+{#            <ul id="archive-list">#}
+{#                <li><a href="#"><span class="glyphicon glyphicon-certificate logo"></span><span class="text">学生认证</span></a>#}
+{#                </li>#}
+{#            </ul>#}
+            {#            <div id="category-item" class="item">#}
+            {#                    <span class="sp1">Categories</span>#}
+            {#                    <span class="glyphicon glyphicon-menu-up icon sp2"></span>#}
+            {#            </div>#}
+            {#            <div id="archive-item" class="item">#}
+            {#                    <span class="sp1">Archives</span>#}
+            {#                    <span class="glyphicon glyphicon-menu-up icon sp2"></span>#}
+            {#            </div>#}
+        </div>
+    </div>
+    <div id="main">
+
+    </div>
+
+</div>
+{#<div id="base-footer">11</div>#}
+{#<script src="/static/js/showdown.js"></script>#}
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/star.js"></script>
+<script src="/static/js/marked.min.js"></script>
+<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/main.js"></script>
+{#<script src="/static/js/translate.js"></script>#}
+</body>
+</html>
